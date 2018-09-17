@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291B9D1B214A126B004BCCDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B9D1A214A126B004BCCDD /* AppDelegate.m */; };
+		291B9D1E214A126B004BCCDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B9D1D214A126B004BCCDD /* ViewController.m */; };
+		291B9D21214A126B004BCCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291B9D1F214A126B004BCCDD /* Main.storyboard */; };
+		291B9D23214A126F004BCCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291B9D22214A126F004BCCDD /* Assets.xcassets */; };
+		291B9D26214A126F004BCCDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291B9D24214A126F004BCCDD /* LaunchScreen.storyboard */; };
+		291B9D29214A126F004BCCDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B9D28214A126F004BCCDD /* main.m */; };
+		291B9D33214A126F004BCCDD /* TieBaLoadingAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B9D32214A126F004BCCDD /* TieBaLoadingAnimationTests.m */; };
+		291B9D3E214A126F004BCCDD /* TieBaLoadingAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B9D3D214A126F004BCCDD /* TieBaLoadingAnimationUITests.m */; };
+		291B9D4D214A12D5004BCCDD /* TieBarLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B9D4C214A12D5004BCCDD /* TieBarLoadingView.m */; };
+		291B9D50214A16E8004BCCDD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 291B9D4E214A16E8004BCCDD /* 1.png */; };
+		291B9D51214A16E8004BCCDD /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 291B9D4F214A16E8004BCCDD /* 2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		291B9D2F214A126F004BCCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 291B9D0E214A126B004BCCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 291B9D15214A126B004BCCDD;
+			remoteInfo = TieBaLoadingAnimation;
+		};
+		291B9D3A214A126F004BCCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 291B9D0E214A126B004BCCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 291B9D15214A126B004BCCDD;
+			remoteInfo = TieBaLoadingAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		291B9D16214A126B004BCCDD /* TieBaLoadingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TieBaLoadingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		291B9D19214A126B004BCCDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		291B9D1A214A126B004BCCDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		291B9D1C214A126B004BCCDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		291B9D1D214A126B004BCCDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		291B9D20214A126B004BCCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		291B9D22214A126F004BCCDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		291B9D25214A126F004BCCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		291B9D27214A126F004BCCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291B9D28214A126F004BCCDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		291B9D2E214A126F004BCCDD /* TieBaLoadingAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TieBaLoadingAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		291B9D32214A126F004BCCDD /* TieBaLoadingAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TieBaLoadingAnimationTests.m; sourceTree = "<group>"; };
+		291B9D34214A126F004BCCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291B9D39214A126F004BCCDD /* TieBaLoadingAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TieBaLoadingAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		291B9D3D214A126F004BCCDD /* TieBaLoadingAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TieBaLoadingAnimationUITests.m; sourceTree = "<group>"; };
+		291B9D3F214A126F004BCCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291B9D4B214A12D5004BCCDD /* TieBarLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TieBarLoadingView.h; sourceTree = "<group>"; };
+		291B9D4C214A12D5004BCCDD /* TieBarLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TieBarLoadingView.m; sourceTree = "<group>"; };
+		291B9D4E214A16E8004BCCDD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		291B9D4F214A16E8004BCCDD /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		291B9D13214A126B004BCCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B9D2B214A126F004BCCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B9D36214A126F004BCCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291B9D0D214A126B004BCCDD = {
+			isa = PBXGroup;
+			children = (
+				291B9D18214A126B004BCCDD /* TieBaLoadingAnimation */,
+				291B9D31214A126F004BCCDD /* TieBaLoadingAnimationTests */,
+				291B9D3C214A126F004BCCDD /* TieBaLoadingAnimationUITests */,
+				291B9D17214A126B004BCCDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		291B9D17214A126B004BCCDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				291B9D16214A126B004BCCDD /* TieBaLoadingAnimation.app */,
+				291B9D2E214A126F004BCCDD /* TieBaLoadingAnimationTests.xctest */,
+				291B9D39214A126F004BCCDD /* TieBaLoadingAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		291B9D18214A126B004BCCDD /* TieBaLoadingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				291B9D4E214A16E8004BCCDD /* 1.png */,
+				291B9D4F214A16E8004BCCDD /* 2.png */,
+				291B9D19214A126B004BCCDD /* AppDelegate.h */,
+				291B9D1A214A126B004BCCDD /* AppDelegate.m */,
+				291B9D4B214A12D5004BCCDD /* TieBarLoadingView.h */,
+				291B9D4C214A12D5004BCCDD /* TieBarLoadingView.m */,
+				291B9D1C214A126B004BCCDD /* ViewController.h */,
+				291B9D1D214A126B004BCCDD /* ViewController.m */,
+				291B9D1F214A126B004BCCDD /* Main.storyboard */,
+				291B9D22214A126F004BCCDD /* Assets.xcassets */,
+				291B9D24214A126F004BCCDD /* LaunchScreen.storyboard */,
+				291B9D27214A126F004BCCDD /* Info.plist */,
+				291B9D28214A126F004BCCDD /* main.m */,
+			);
+			path = TieBaLoadingAnimation;
+			sourceTree = "<group>";
+		};
+		291B9D31214A126F004BCCDD /* TieBaLoadingAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				291B9D32214A126F004BCCDD /* TieBaLoadingAnimationTests.m */,
+				291B9D34214A126F004BCCDD /* Info.plist */,
+			);
+			path = TieBaLoadingAnimationTests;
+			sourceTree = "<group>";
+		};
+		291B9D3C214A126F004BCCDD /* TieBaLoadingAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				291B9D3D214A126F004BCCDD /* TieBaLoadingAnimationUITests.m */,
+				291B9D3F214A126F004BCCDD /* Info.plist */,
+			);
+			path = TieBaLoadingAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		291B9D15214A126B004BCCDD /* TieBaLoadingAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291B9D42214A126F004BCCDD /* Build configuration list for PBXNativeTarget "TieBaLoadingAnimation" */;
+			buildPhases = (
+				291B9D12214A126B004BCCDD /* Sources */,
+				291B9D13214A126B004BCCDD /* Frameworks */,
+				291B9D14214A126B004BCCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TieBaLoadingAnimation;
+			productName = TieBaLoadingAnimation;
+			productReference = 291B9D16214A126B004BCCDD /* TieBaLoadingAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		291B9D2D214A126F004BCCDD /* TieBaLoadingAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291B9D45214A126F004BCCDD /* Build configuration list for PBXNativeTarget "TieBaLoadingAnimationTests" */;
+			buildPhases = (
+				291B9D2A214A126F004BCCDD /* Sources */,
+				291B9D2B214A126F004BCCDD /* Frameworks */,
+				291B9D2C214A126F004BCCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				291B9D30214A126F004BCCDD /* PBXTargetDependency */,
+			);
+			name = TieBaLoadingAnimationTests;
+			productName = TieBaLoadingAnimationTests;
+			productReference = 291B9D2E214A126F004BCCDD /* TieBaLoadingAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		291B9D38214A126F004BCCDD /* TieBaLoadingAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291B9D48214A126F004BCCDD /* Build configuration list for PBXNativeTarget "TieBaLoadingAnimationUITests" */;
+			buildPhases = (
+				291B9D35214A126F004BCCDD /* Sources */,
+				291B9D36214A126F004BCCDD /* Frameworks */,
+				291B9D37214A126F004BCCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				291B9D3B214A126F004BCCDD /* PBXTargetDependency */,
+			);
+			name = TieBaLoadingAnimationUITests;
+			productName = TieBaLoadingAnimationUITests;
+			productReference = 291B9D39214A126F004BCCDD /* TieBaLoadingAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		291B9D0E214A126B004BCCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = pengjiaxin;
+				TargetAttributes = {
+					291B9D15214A126B004BCCDD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					291B9D2D214A126F004BCCDD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 291B9D15214A126B004BCCDD;
+					};
+					291B9D38214A126F004BCCDD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 291B9D15214A126B004BCCDD;
+					};
+				};
+			};
+			buildConfigurationList = 291B9D11214A126B004BCCDD /* Build configuration list for PBXProject "TieBaLoadingAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 291B9D0D214A126B004BCCDD;
+			productRefGroup = 291B9D17214A126B004BCCDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				291B9D15214A126B004BCCDD /* TieBaLoadingAnimation */,
+				291B9D2D214A126F004BCCDD /* TieBaLoadingAnimationTests */,
+				291B9D38214A126F004BCCDD /* TieBaLoadingAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		291B9D14214A126B004BCCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291B9D26214A126F004BCCDD /* LaunchScreen.storyboard in Resources */,
+				291B9D50214A16E8004BCCDD /* 1.png in Resources */,
+				291B9D51214A16E8004BCCDD /* 2.png in Resources */,
+				291B9D23214A126F004BCCDD /* Assets.xcassets in Resources */,
+				291B9D21214A126B004BCCDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B9D2C214A126F004BCCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B9D37214A126F004BCCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		291B9D12214A126B004BCCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291B9D1E214A126B004BCCDD /* ViewController.m in Sources */,
+				291B9D29214A126F004BCCDD /* main.m in Sources */,
+				291B9D4D214A12D5004BCCDD /* TieBarLoadingView.m in Sources */,
+				291B9D1B214A126B004BCCDD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B9D2A214A126F004BCCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291B9D33214A126F004BCCDD /* TieBaLoadingAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291B9D35214A126F004BCCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291B9D3E214A126F004BCCDD /* TieBaLoadingAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		291B9D30214A126F004BCCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 291B9D15214A126B004BCCDD /* TieBaLoadingAnimation */;
+			targetProxy = 291B9D2F214A126F004BCCDD /* PBXContainerItemProxy */;
+		};
+		291B9D3B214A126F004BCCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 291B9D15214A126B004BCCDD /* TieBaLoadingAnimation */;
+			targetProxy = 291B9D3A214A126F004BCCDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		291B9D1F214A126B004BCCDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291B9D20214A126B004BCCDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		291B9D24214A126F004BCCDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291B9D25214A126F004BCCDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		291B9D40214A126F004BCCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		291B9D41214A126F004BCCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		291B9D43214A126F004BCCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = TieBaLoadingAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancity.TieBaLoadingAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		291B9D44214A126F004BCCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = TieBaLoadingAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancity.TieBaLoadingAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		291B9D46214A126F004BCCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2NDMDLR9X;
+				INFOPLIST_FILE = TieBaLoadingAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancity.TieBaLoadingAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TieBaLoadingAnimation.app/TieBaLoadingAnimation";
+			};
+			name = Debug;
+		};
+		291B9D47214A126F004BCCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2NDMDLR9X;
+				INFOPLIST_FILE = TieBaLoadingAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancity.TieBaLoadingAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TieBaLoadingAnimation.app/TieBaLoadingAnimation";
+			};
+			name = Release;
+		};
+		291B9D49214A126F004BCCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2NDMDLR9X;
+				INFOPLIST_FILE = TieBaLoadingAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancity.TieBaLoadingAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TieBaLoadingAnimation;
+			};
+			name = Debug;
+		};
+		291B9D4A214A126F004BCCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2NDMDLR9X;
+				INFOPLIST_FILE = TieBaLoadingAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancity.TieBaLoadingAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TieBaLoadingAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291B9D11214A126B004BCCDD /* Build configuration list for PBXProject "TieBaLoadingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291B9D40214A126F004BCCDD /* Debug */,
+				291B9D41214A126F004BCCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291B9D42214A126F004BCCDD /* Build configuration list for PBXNativeTarget "TieBaLoadingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291B9D43214A126F004BCCDD /* Debug */,
+				291B9D44214A126F004BCCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291B9D45214A126F004BCCDD /* Build configuration list for PBXNativeTarget "TieBaLoadingAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291B9D46214A126F004BCCDD /* Debug */,
+				291B9D47214A126F004BCCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291B9D48214A126F004BCCDD /* Build configuration list for PBXNativeTarget "TieBaLoadingAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291B9D49214A126F004BCCDD /* Debug */,
+				291B9D4A214A126F004BCCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 291B9D0E214A126B004BCCDD /* Project object */;
+}
